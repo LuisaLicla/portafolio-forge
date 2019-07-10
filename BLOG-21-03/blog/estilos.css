@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    color: slateblue;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+div a{
+    font-weight: bold;
+}
+body{
+    background-image: url(fondos/fondo-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article a{
+    border: 2px solid rgb(134, 60, 37);
+    background-color: rgb(115, 211, 218);
+}
+ul{
+    font-weight: bold;
+}
+ol{
+    font-weight: bold;
+}
+article img{
+    width: 100%;
+    border-radius: 150px;
+    border:10px solid mediumvioletred;
+}
+p{
+    font-weight: bold;
+}

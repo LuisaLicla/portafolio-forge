@@ -1,0 +1,86 @@
+h1{
+    display: none;
+}
+.banner img{
+    max-width:100%;
+}
+.nav1{
+    float: right;
+}
+.l_menu li{
+    display: inline;
+    margin: 0 10px;
+}
+.l_menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.f_work{
+    background-color: lightskyblue;
+}
+.f_team{
+    background-color:  rgb(230, 157, 181);
+}
+.f_news{
+    background-color: rgb(245, 220, 81);
+}
+.f_clients{
+    background-color: rgb(207, 176, 236);
+}
+.f_idea{
+    background-color: rgb(64, 65, 95);
+}
+footer{
+    background-color: rgb(80, 75, 110);
+}
+img{
+    max-width: 100%;
+}
+section{
+    padding: 50px 0;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services article{
+    margin: 10px 1%;
+    display:inline-block;
+    width: 30%;
+}
+.services article img{
+    width: 50%;
+    border-radius: 50%;
+}
+.services article h2{
+   font-size: 17px;
+}
+
+.img_work li{
+    list-style: none;
+    display: inline;
+}
+.img_work li img{
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+}
+
+.team article{
+    margin: 10px 1%;
+    display:inline-block;
+    width: 30%;
+}
+.team article img{
+    width: 50%;
+    border-radius: 50%;
+}
+.team article h2{
+   font-size: 17px;
+}
+.team ul{
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+}
+

@@ -1,0 +1,51 @@
+
+header{
+    display: inline;
+}
+nav {
+    display: flex;
+    justify-content: space-around;   
+    width: 50%;
+
+}
+.menu_i{
+    display: flex;
+
+}
+nav .menu_i li{
+    font-size: 20px;
+}
+
+.s_1 {
+    background-image: url(imagenes/Portadav2.jpeg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+}
+.s_1 .t_1{
+    
+}
+.s_2 {
+    display: flex;
+    justify-content: space-between;
+}
+.s_2 .colum_2{
+    background-image: url(imagenes/Kamanqa_02.jpg);
+    width: 100%;
+    
+}
+.f_serv{
+    background-image: url(imagenes/backgroundreperiblegris.jpg);
+}
+.servicios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.servicios div{
+    max-width: 25%;
+}
+.g_lr{
+    display: flex;
+}

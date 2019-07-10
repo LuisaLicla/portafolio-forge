@@ -1,0 +1,50 @@
+.fondo{
+    background-color: rgb(59, 211, 216);
+}
+.encabezado{
+    background: coral;
+}
+.titulo{
+    text-align: center;
+    color: rgb(139, 67, 0);
+    font-family: fantasy;
+    
+    font-size: 100px;
+    text-shadow: 0.1em 0.1em rgb(5, 5, 5);
+}
+
+.subtitulo1{
+    font-size: 60px;
+}
+.pelicula .nombre{
+    font-size: 40px;
+    color: darkslateblue;
+}
+.image{
+    width: 40%;
+    border-radius: 30% ;
+}
+.lista{
+    background-color: rgb(151, 196, 223);
+}
+.lista .pelicula.destacado .image{
+    width: 50%;
+    background: yellow;
+    border-radius: 50% ;
+    border: 5px solid brown ;
+}
+.descripcion{
+    font-size: 20px;
+}
+.subtitulo2{
+    color: darkred;
+    font-family: fantasy;
+    font-size: 350%;
+    text-shadow: 0.1em 0.1em rgb(0, 51, 128);
+}
+.lista-producto .producto.destacado .image{
+    width: 50%;
+    background: yellow;
+    border-radius: 50% ;
+    border: 5px solid brown ;
+}
