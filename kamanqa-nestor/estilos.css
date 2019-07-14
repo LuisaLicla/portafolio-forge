@@ -1,0 +1,141 @@
+body{
+    font-family: Helvetica;
+    font-size: 14px;
+    line-height: 1.5;
+}
+p{
+    margin-bottom: 20px;
+}
+.oculto{
+    display: none;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 1200px;
+}
+.main-header{
+    background: #eeeeee;
+}
+.main-header .contenedor,
+footer .foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-header h1 img{
+    padding: 15px 0 5px;
+}
+.main-header nav ul,
+footer .foot ul{
+    display: flex;
+}
+.main-header nav ul li{
+    margin-left: 50px;
+}
+.banner{
+    background: url(imagenes/banner.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.banner p{
+    color: white;
+}
+.banner .banner-t1{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+.banner .banner-t2{
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section1,
+.section3{
+    display: flex;
+    align-items: center;
+}
+.section1 .section1-contenedor,
+.section1 .section2-contenedor,
+.section3 .section1-contenedor,
+.section3 .section2-contenedor{
+    width: 50%;
+}
+.section1 .contenedor-600,
+.section3 .contenedor-600{
+    width: 600px;
+}
+.section1 .section1-contenedor,
+.section3 .section1-contenedor{
+    display: flex;
+    justify-content: flex-end;
+}
+.section1 .section2-contenedor{
+    background: url(imagenes/Kamanqa_02.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.section1 .section1-contenedor .contenedor-600{
+    padding-right: 40px;
+}
+.section1 .section2-contenedor .contenedor-600,
+.section3 .section2-contenedor .contenedor-600{
+    padding-left: 40px;
+}
+.raya-quienes-somos{
+    width: 40px;
+    height: 3px;
+    background: black;
+}
+.section1 h2,
+.section3 h2{
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.section1 .section2-contenedor img{
+    margin-bottom: 20px;
+}
+
+.section2{
+    background: url(imagenes/backgroundreperiblegris.jpg);
+    background-size: 32%;
+    background-position: center;
+    padding: 30px 0 70px;
+}
+.section2 h2,
+.section2 h3,
+.section2 p{
+    color: white;
+}
+.section2 h2{
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.section2 .section2-contenedor{
+    display: flex;
+}
+.section2 .section2-contenedor div{
+    width: 33.3333%;
+}
+.section2 .section2-contenedor div h3,
+.section2 .section2-contenedor div p{
+    width: 90%;
+}
+.section2 .section2-contenedor div h3{
+    margin-bottom: 10px;
+}
+.section3 .section1-contenedor{
+    background: url(imagenes/Kamanqa_01.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background: steelblue;
+}

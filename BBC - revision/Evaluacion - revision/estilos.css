@@ -1,0 +1,163 @@
+header {
+    background: black;
+    height    : 40px;
+    position  : fixed;
+    width     : 100%;
+    z-index   : 99;
+}
+
+header .container {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+header form button {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    border-left: 1px solid #777;
+    padding    : 11px 0;
+}
+
+header nav ul li:last-child {
+    border-right: 1px solid #777;
+}
+
+header nav ul li a {
+    color      : white;
+    font-weight: bold;
+    padding    : 11px;
+    position   : relative;
+}
+
+header nav ul li a::after {
+    content : '';
+    height  : 4px;
+    width   : 100%;
+    position: absolute;
+    bottom  : 0;
+    left    : 0;
+}
+
+.color-home::before,
+.color-home::after {
+    background: deepskyblue;
+}
+
+.color-news::before,
+.color-news::after {
+    background: orangered;
+}
+
+.color-culture::before,
+.color-culture::after {
+    background: mediumpurple;
+}
+
+.color-future::before,
+.color-future::after {
+    background: limegreen;
+}
+
+.color-travel::before,
+.color-travel::after {
+    background: deeppink;
+}
+
+.welcome {
+    padding-top: 40px;
+}
+
+.welcome .cabecera {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.welcome .cabecera span {
+    font-size: 1.5em;
+    color    : #999999;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+article {
+    position: relative;
+}
+
+article .articulo-texto {
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    padding   : 10px;
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.54)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+    filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+
+article .articulo-texto a {
+    padding-left: 20px;
+    color       : white;
+    position    : relative;
+}
+
+article .articulo-texto a::before {
+    content : '';
+    width   : 10px;
+    height  : 15px;
+    position: absolute;
+    left    : 0;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.contact {
+    background: url(./img/contact/background-contact-us.jpg);
+    position  : relative;
+}
+
+/* Fondo semitransparente - forma 1 */
+.contact::before {
+    content   : '';
+    width     : 100%;
+    height    : 100%;
+    background: rgba(0, 0, 0, .8);
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+}
+
+.contact .container {
+    position: relative;
+    z-index : 9;
+}
+
+/* Fondo semitransparente - forma 2 */
+.contact .formulario {
+    padding   : 100px;
+    background: rgba(0, 191, 255, .5);
+}
+
+.contact .formulario form {
+    position: relative;
+    z-index : 12;
+}
+
+.text-color-blanco {
+    color: white;
+}

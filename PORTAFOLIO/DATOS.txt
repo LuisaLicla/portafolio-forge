@@ -1,0 +1,17 @@
+INDICACIONES
+-Mobile firts
+-Bemit
+-Uso de framework css opcional
+
+LISTA DE CLASES 
+bit.ly/clases-desarrollo-web
+
+ANIMACIONES
+- https://michalsnik.github.io/aos/
+
+ITCSS
+- generic 	=> framework css
+- elements	=> body, h1, p, ul, span
+- components	=> custom css (class, pseudo-element, pseudo-clases)
+- utilities	=> css utilitarias
+- libraries	=> font-awesome, animate.css

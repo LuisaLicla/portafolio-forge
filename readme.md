@@ -22,3 +22,11 @@ $ git remote -v     # para poder ver si tienes la ruta de tu repositorio de gith
 $ git remote add origin <URL>
 $ git push -u origin master
 ```
+
+## Para usarlo en otra compu en la que no tengo el proyecto
+
+```bash
+$ git clone https://github.com/LuisaLicla/portafolio-forge.git
+# Si ya tienes el proyecto, para jalar la ultima version
+$ git pull origin master
+```

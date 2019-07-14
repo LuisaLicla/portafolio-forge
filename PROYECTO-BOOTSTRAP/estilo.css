@@ -1,0 +1,90 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.encabezado div nav ul{
+    display: flex;
+  
+}
+.encabezado div nav ul li{
+   margin: 10px;
+}
+header{
+    height: 90px;
+}
+.banner div{
+    background-image: url(img/img/banner.png);
+    height: 500px;
+    background-position: center center;
+}
+section:not(.banner){
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section:nth-child(even){
+    background-color: rgba(235, 235, 235, 0.979);
+}
+.section_1 div div .col-4 article,
+.section_4 div div .col-2 img,
+.section_5 div div .col-6 article,
+.section_5 div div .col-3 article{
+    background-color: white;
+    box-shadow: 0px 3px 18px 2px rgb(180, 175, 175);
+}
+.section_1 .container .row .col-4 article div,
+.section_5 .container .row .col-6 div,
+.section_5 .container .row .col-3 div  {
+    margin: 0;
+    padding: 25px;
+}
+
+.section_2 h2::after,
+.section_3 h2:nth-child(1)::after{
+    content: "";
+    background: red;
+    width: 55px;
+    height: 2px;
+    display: block;
+    margin: 20px 0 50px 0px;
+}
+
+.section_4  h2::after,
+.section_5 .container .rayita::after{
+    content: "";
+    background: red;
+    width: 55px;
+    height: 2px;
+    display: block;
+    margin: 20px 0 50px 0px;
+}
+.section_4  h2,
+.section_5 .container .rayita{
+    text-align: center;
+    
+}
+.section_3 .row:last-child ul li{
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+.section_5 p a{
+    color: white;
+    background-color: rgb(192, 61, 61);
+    padding: 10px;
+    display: inline-block;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+footer div p{
+    margin: 0px;
+    color: white;
+}
+

@@ -1,0 +1,397 @@
+@media only screen 
+
+section, header{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;  
+}
+h1, .boton1, .boton2{
+    display: inline;
+    }
+
+header{
+    padding: 5px;
+}
+.boton1{
+    float: left;
+    background-color: #FFE521;
+    width: 150px;
+    
+    }
+.boton1 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    
+}
+.boton2{
+    float: right;
+    background-color: #FFE521;
+    width: 150px;
+    
+}
+.boton2 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    }
+
+.banner1{
+    background-image: url(img/fondos/banner1.jpg);
+    background-size: cover;
+    height: 446px;
+    margin-top: -35px;
+    margin-bottom: 105px;
+    }
+
+.banner1 .pb1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    padding-top: 300px;
+}
+.banner1 .pb2{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-top: -30px;
+    padding: 0 410px;
+}
+.p1mariana{
+    font-size: 35px;
+}
+.p2mariana{
+    font-size: 20px;
+    color: #999999;
+}
+.marianah2{
+    padding-top: 70px;
+    }
+.ph2{
+    font-size: 28px;
+}
+.divm{
+    display: flex;
+    }
+.divm div{
+    margin: auto;
+    background-color: #FF009E;
+    width: 20%;
+    
+}
+.divp{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.divp2{
+    color: white;
+    font-size: 15px;
+    margin-top: -40px;
+}
+.plibre{
+    font-style: italic;
+    font-size: 25px;
+    padding: 0 90px;
+}
+.banner2{
+    background-image: url(img/fondos/banner2.jpg);
+    background-size: cover;
+    height: 426px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+.banner2 p{
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+.pb2-1{
+    color:white;
+    font-size: 30px;
+    padding-top: 145px;
+}
+.pb2-2{
+    color: #FFE521;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.pb2-3{
+    color: white;
+    font-size: 20px;
+}
+.spost{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+    padding-top: 20px; 
+}
+.saprende{
+    text-align: left;
+    font-size: 40px;
+    padding-right: 300px;
+}
+.stext1{
+    text-align: left;
+    font-size: 18px;
+}
+.ppost{
+    text-align: right;
+}
+.botpost{
+    background-color: #FFE521;
+    width: 280px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+.banner3{
+    background-image: url(img/fondos/banner3.JPG);
+    background-size: cover;
+    height: 409px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+.banner3 p{
+    margin: 0 auto;
+    width: 960px;
+    text-align: left;
+}
+.pb3-1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.pb3-2{
+    color: #FFE521;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pb3-3{
+    color: white;
+    font-size: 20px;
+}
+.sbusi{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+    padding-top: 20px; 
+}
+.scontrata{
+    text-align: left;
+    font-size: 40px;
+    padding-right: 300px;
+}
+.stext2{
+    text-align: left;
+    font-size: 18px;
+}
+.ptalento{
+    text-align: right;
+}
+.bottalento{
+    background-color: #56F89A;
+    width: 280px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+.banner4{
+    background-image: url(img/fondos/banner4.jpg);
+    background-size: cover;
+    height: 414px;
+    margin-top: 105px;
+    margin-bottom: 105px;
+    }
+.banner4 p{
+    margin: 0 auto;
+    text-align: right;
+    width: 960px;
+    
+}
+.pb4-1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.pb4-2{
+    color: #56F89A;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pb4-3{
+    color: white;
+    font-size: 20px;
+}
+.sforbusi{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+    padding-top: 20px;
+}
+.shabilidades{
+    text-align: left;
+    font-size: 40px;
+    padding-right: 300px;
+}
+.stext3{
+    text-align: left;
+    font-size: 18px;
+}
+.pcursos{
+    text-align: right;
+}
+.botcursos{
+    background-color: #FF009E;
+    width: 280px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+}
+.banner5{
+    background-image: url(img/fondos/banner5.jpg);
+    background-size: cover;
+    height: 414px;
+    margin-top: 105px;
+}
+.banner5 p{
+    margin: 0 auto;
+    text-align: right;
+    width: 960px;
+}
+.pb5-1{
+    color: white;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.pb5-2{
+    color: #FF009E;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pb5-3{
+    color: white;
+    font-size: 20px;
+}
+.divaliados{
+    background-color: #e4dcdc;
+    padding-top: 105px;
+}
+.aliadosmenu li{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+    background-color: white;
+    vertical-align: top;
+}
+.aliadosmenu li img{
+    padding-top: 75px;
+}
+.recomenu img{
+    max-width: 30%;
+}
+.recomenu li{
+    display: inline;
+}
+.divmedios{
+    background-color: #e4dcdc;
+    padding-top: 105px;
+}
+.secmedios{
+    margin-top: 50px;
+}
+.mediosmenu li{
+    display: inline-block;
+    width: 250px;
+    margin: 42px 22px;
+}
+.mediosmenu li p{
+    width: 250px;
+    font-size: 18px;
+    text-align: center;
+}
+.mediosmenu img{
+    max-width: 100%;
+}
+.blog div{
+    display: flex;
+}
+.blog div article{
+    width: 263px;
+    margin: 25px;
+    background-color: #e4dcdc;
+    padding: 15px;
+}
+.blog article h3{
+    text-align: left;
+}
+.blog article p{
+    text-align: left;
+}
+.blog article p a{
+    color: black;
+}
+.blog .secplibre{
+    font-size: 20px;
+}
+.blog .secplibre a{
+    color: black;
+}
+footer{
+    background-color: black;
+}
+.imagf{
+    max-width: 40%;
+}
+.pfoot{
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    text-align: left;
+}
+.menufoot li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.menufoot{
+    width: 50%;
+}
+.textfoot{
+    display: flex;
+}
+.foot{
+    width: 960px;
+    margin: 0 auto;
+}
