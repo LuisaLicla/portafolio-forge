@@ -228,6 +228,7 @@ section{
     font-size: 15px;
     color: #000000;
     background-color: #ffe521;
+    padding-bottom: 30px;
 }
 .s_c .talento a{
     float: right;
@@ -239,6 +240,7 @@ section{
     font-size: 15px;
     color: #000000;
     background-color: #55f89a;
+    padding-bottom: 30px;
 }
 .s_c .cursos a{
     float: right;
@@ -250,6 +252,7 @@ section{
     font-size: 15px;
     color: #ffffff;
     background-color: #ff009e;
+    padding-bottom: 30px;
 }
 
 .s_c .postulante a{
@@ -262,6 +265,7 @@ section{
     font-size: 15px;
     color: #000000;
     background-color: #ffe521;
+    padding-bottom: 30px;
 }
 
 
@@ -313,56 +317,35 @@ section{
 }
 
 
-.aliados li{
-   background-size: cover;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
+.aliados .row .col-4 img{
+    background-size: cover;
+    max-width: 100%;;
+    width: 150px;
+    
+    padding: 20px 0px 20px 0px;
+    margin: 20px;
 }
-.aliados li img{
-    margin: 10px 10px 10px 10px;
-}
+
 /*----------------------------------*/
 
 /*----------------------------------*/
 .s_ci7{
     background: #FDF3F7;
+    padding-top: 20px;
 }
 .s_m{
     padding: 0px;
 }
-.p_medio{
-    margin: 0px auto;
-    padding: 0px;
-}
-.p_medio li p {
-    margin: 0px;
-    text-align: center;
-    font-size: 12px;
-    color: #000000;
-}
-.p_medio li img {
-    margin-top: 30px;
-    margin: 30px 0px 10px 0px;
-}
-.p_medio li{
-    vertical-align: top;
+.s_ci7 .contenido{
     margin: 25px;
-    display: inline-block;
-    text-align: center;
-    height: 165px;
-    width: 198px;
-    z-index: 34;
 }
 /*----------------------------------*/
-.blog_a article{
-    
-    
-    padding: 2px;
-    margin: 15px;
-    width: 250px;
+.blog_a article{ 
+    padding: 9px;
+    padding-bottom: 30px;
+   
 }
-.blog_a article p{
+.blog_a  article p{
     text-align: left;
 }
 .blog_a article h2{
@@ -371,11 +354,12 @@ section{
 }
 .blog_a article a{
     color: #000000;
+
 }
 
-.blog_a {
-    display: flex;
-    background: #999999;
+.blog_a .col-4 article{
+    margin: 10px;
+    background: #dbdada;
 
 }
 
@@ -393,14 +377,28 @@ section{
 /*----------------------------------*/
 footer{
     background: black;
+    
 }
-.pie_p p{
+.footer p{
     width: 400px;
     text-align: left;
     color: #ffffff;
 }
+.footer img{
+    max-width: 100%;
+    width: 150px;
+}
+.footer-section{
+    display: flex;
+   justify-content: space-between;
+}
 
-
-
+.footer .footer-section {
+    text-align: left;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 
