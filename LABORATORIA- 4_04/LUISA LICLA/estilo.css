@@ -315,14 +315,22 @@ section{
     font-size: 18px;
     font-style: italic;
 }
-
-
+.aliados{
+    
+    background: #d8d7d7;
+}
+.aliados figure{
+    height: 200px;
+    width: 200px;
+    background: #fffefe;
+}
 .aliados .row .col-4 img{
     background-size: cover;
-    max-width: 100%;;
-    width: 150px;
     
-    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    width: 170px;
+    background: #ffffff;
+    padding: 25px 0px 20px 0px;
     margin: 20px;
 }
 
@@ -385,7 +393,8 @@ footer{
     text-align: left;
     color: #ffffff;
 }
-.footer img{
+.footer figure img{
+    text-align: left;
     max-width: 100%;
     width: 150px;
 }
