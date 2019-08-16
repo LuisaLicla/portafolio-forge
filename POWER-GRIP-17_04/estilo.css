@@ -36,10 +36,12 @@ li a{
     flex-direction: row;
 }
 article{
+    
     padding: 20px;
     background: white;
     margin: 20px;
 }
+
 .boton {
     margin: 30px 0;
     background: linear-gradient(to bottom, rgb(121, 121, 139), white);
